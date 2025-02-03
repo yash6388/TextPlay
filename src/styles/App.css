@@ -1,0 +1,32 @@
+/* Ensure the full height of the page */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* App Container */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures the app takes full height of the viewport */
+}
+
+/* Ensure proper responsiveness */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Body background color and text color */
+body {
+  background-color: #f4f4f9; /* Light grey background */
+  color: #333; /* Dark grey text */
+}
+
+/* Navbar Style - Dark Navbar */
+.navbar-dark {
+  background-color: #343a40; /* Dark background for the navbar */
+}
+
